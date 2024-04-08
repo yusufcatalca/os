@@ -621,7 +621,7 @@ mov ah, 0Ah
 mov dx, offset buffer ;kullanici girisini 'buffer'in icine al.
 int 21h
 
-call NewLine ;yeni bir satira gecç
+call NewLine ;yeni bir satira gecÃ§
 
 ;harf sayma dongusune baslatir.
 mov si, 2
@@ -722,7 +722,7 @@ buffer db 255, ?, 255 dup('$')
 lineBreak db 0Ah, 24h
 td db "iki rakam $" 
 
-;yeni satira gecer.ç
+;yeni satira gecer.Ã§
 
 NewLine:
 	mov ah, 09h
